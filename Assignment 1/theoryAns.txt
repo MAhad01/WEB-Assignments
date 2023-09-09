@@ -1,0 +1,27 @@
+Ans 2
+Comments in HTML are used to insert notes to a web page. 
+They are not displayed by the browser, but they can help document your HTML source code.
+Comments are mainly used to make our code more readable. 
+They are completely hidden from the webpage and only show up in the code.
+Commenting on your code is a good practice as it helps us to express what the code is doing. 
+It can act as an anchor for you if you want to change your code in the future.
+
+We can use ctrl+/ to create a comment in html
+<!-- This is a comment -->
+
+
+Ans 4
+
+HTML tags are the keywords that are used to produce web pages in various formats.
+They are like instructions to the web browser about how to format and display the content.
+HTML tags contain three main parts: opening tag, content, and closing tag.
+
+An HTML element is defined by a start tag, some content, and an end tag.
+The HTML element is everything from the start tag to the end tag. For example, 
+<p> is the starting tag of a paragraph and </p> is the closing tag of the same paragraph, but <p>This is a paragraph</p> is a paragraph element.
+
+
+Ans 5
+The <!DOCTYPE> declaration in HTML is the first line of code required in every HTML or XHTML document.
+It’s not an HTML tag, but an instruction to the web browser about what version of HTML the page is written in.
+This ensures that the web page is parsed the same way by different web browsers.
