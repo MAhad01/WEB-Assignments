@@ -1,0 +1,12 @@
+Here are some benefits of using meta tags:
+
+Improved Search Engine Visibility: Meta tags can help search engines understand what a page is about, which can lead to 
+            better search engine rankings and increased traffic.
+Better User Experience: Meta tags can provide users with more information about a page’s content, which can improve click-through 
+            rates and overall user experience.
+Helping Search Engines Determine the Topic of Your Webpage: Meta tags tell search engines what a webpage is about.
+            Search engines use that information to help determine the webpage’s relevance to a query.
+Avoiding Duplicate Content Issues: Meta tags are often the first line of defense for duplicate content. 
+            If your title tags are the same across many webpages, for example, Google will choose the best webpage among them 
+            and filter others from the results.
+Driving Clicks and Organic Search Traffic: As mentioned, the right meta data can increase clicks and traffic to your site3
