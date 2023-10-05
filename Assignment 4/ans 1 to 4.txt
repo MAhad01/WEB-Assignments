@@ -1,0 +1,43 @@
+Ans 1
+HTML5 is the latest version of HTML, the standard markup language for creating web pages and web applications. HTML5 introduces many new features that make it more powerful and versatile than previous versions. Some of the main features of HTML5 are:
+
+- Semantic elements: These are elements that describe the meaning and structure of the content, rather than just the presentation. For example, `<header>`, `<footer>`, `<article>`, `<section>`, `<nav>`, and `<aside>` are some of the semantic elements in HTML5. They make the code more readable and accessible, and also help with search engine optimization (SEO) and web development¹².
+- Audio and video support: HTML5 provides native support for embedding audio and video files on web pages, without the need for external plugins or codecs. The `<audio>` and `<video>` elements allow developers to specify the source, format, controls, and other attributes of the media files. HTML5 also supports streaming, subtitles, captions, tracks, and other features for audio and video playback¹²³.
+- Canvas element: The `<canvas>` element is a container that can be used to draw graphics, animations, games, and other interactive content on web pages using JavaScript. The canvas element has a width and height attribute that define the size of the drawing area, and a context object that provides methods and properties for drawing shapes, colors, images, text, and more¹²³.
+- Geolocation API: The Geolocation API is a feature that allows web applications to access the user's geographic location, with their permission. This can be used to provide location-based services, such as maps, directions, weather, local information, and more. The Geolocation API can use various sources to determine the user's location, such as GPS, IP address, Wi-Fi, or cell towers¹³.
+- Local storage: Local storage is a feature that allows web applications to store data on the user's browser, without sending it to the server. This can improve the performance, security, and offline availability of web applications. HTML5 provides two types of local storage: Web Storage and IndexedDB. Web Storage provides a simple key-value pair mechanism to store data as strings. IndexedDB provides a more complex database system to store structured data as objects¹³.
+
+Ans 2
+HTML entities are special codes that are used to display reserved characters, special characters, or invisible characters in HTML documents. 
+Reserved characters are those that have a specific meaning in HTML syntax, such as <, >, and &. Special characters are those that are not present on a standard keyboard, such as ©, €, and ∞. 
+Invisible characters are those that do not produce any visible output, such as non-breaking spaces and zero-width spaces.
+
+The 5 commonly used html entities are:
+< is the entity name for the less than sign (<)
+< is the entity number for the same sign
+€ is the entity name for the euro sign (€)
+€ is the entity number for the same sign
+  is the entity name for the non-breaking space ( )
+  is the entity number for the same space
+
+Ans 3
+Accessibility in web development, often abbreviated to A11y1, is the practice of making your websites usable by as many people as 
+possible. This includes people with disabilities, but also extends to other groups such as those using mobile devices, 
+or those with slow network connections.
+
+Web accessibility is essential for developers and organizations that want to create high-quality websites and web tools,
+and not exclude people from using their products and services. It’s not only about treating everyone the same and giving them equal 
+opportunities, no matter what their ability or circumstances2, but also about improving SEO,
+making your site more findable, demonstrating good ethics and morals, and in some places, it’s even the law.
+
+Ans 4
+Here are three ways to improve the accessibility of HTML:
+Semantic HTML: Use the correct HTML elements for their intended purpose as much as possible.
+    This is important because it ensures maximum accessibility. For example, a control button to play a video on your site could be marked
+    up like this: <button>Play video</button>.
+Alternative Texts: Every image should have an alt attribute providing alternative text describing the image in a way that is helpful to 
+    users who can read the rest of the content but can’t see the image. For example, <img alt="The Open Web Docs logo: Carle the book worm 
+    smiling" src="carle.svg" role="img" />.
+Descriptive Link Text: If you have a link that isn’t self-descriptive, or the link destination could benefit from being explained 
+    in more detail, you can add information to a link using the aria-label or aria-labelledby attributes2. For example, 
+    <a href="inept.html" aria-label="Why I'm rubbish at writing link text: An explanation and an apology." >Click here</a>.
