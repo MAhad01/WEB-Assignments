@@ -1,0 +1,17 @@
+justify-content: This property aligns the flexible container’s items along the main axis when the items do not use all available space. 
+It manages the spacing between items and aligns them in various ways, such as centering them, spacing them evenly, 
+or aligning them to the start or end.
+
+align-items: This property specifies the default alignment for items inside a flexbox. It controls how items align in the cross 
+axis direction (vertical by default). For example, items can be aligned at the start, end, center, or stretched to fill the container.
+
+The gap property in CSS Flexbox is a shorthand for row-gap and column-gap, specifying the size of gutters, which is the space between 
+rows and columns within grid, flex, and multi-column layouts. 
+It sets the values for the row-gap and column-gap properties, which are used to set the spacing between rows and columns of flex items.
+
+flex-direction: This property specifies the direction of the flexible items within a flex container. By default, it is set to row, which means that items are laid out in a row in a left-to-right direction. 
+Other possible values include row-reverse, column, and column-reverse.
+
+flex-wrap: This property controls whether flex items are laid out in a single line or can wrap onto multiple lines within a flex container.
+ The default value is nowrap, which keeps all items on a single line. Other values include wrap (items wrap onto multiple lines) 
+ and wrap-reverse (items wrap onto multiple lines in reverse order).

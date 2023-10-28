@@ -1,0 +1,159 @@
+*{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    max-width: 1440px;
+    min-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    font-family: sans-serif;
+}
+.right{
+    width: 50%;
+    height: auto;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+}
+
+.left{
+    width: 50%;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.logo-cnt{
+    display: flex;
+    gap: 20px;
+}
+.logo-cnt img{
+    height: 70px;
+    width: 70px;
+}
+.nav-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nav-cont ul{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+}
+.nav-cont li{
+    cursor: pointer;
+}
+.nav-cont button{
+    padding: 5px 7px;
+    border: 1px solid lightblue;
+    background-color: transparent;
+    border-radius: 3px;
+    cursor:pointer;
+}
+.nav-cont .selected{
+    background-color: #FB792B;
+    border-color: #FB792B;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+main .title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+main .sub-title{
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+}
+main .choose-cnt{
+    display: flex;
+    gap: 15px;
+}
+main .choose-cnt button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: transparent;
+    border:1px solid lightgray;
+    border-radius: 3px;
+    cursor:pointer;
+}
+main .choose-cnt .selected{
+    border-color: #213D77;
+    background-color: #213D77;
+    color: whitesmoke;
+}
+
+main .journey-detial{
+    border: 1px solid lightblue;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}
+main .card-element{
+    display: flex;
+    align-items: center;
+}
+.card-element-image-container img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+main .select-option{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    cursor:pointer;
+}
+main .choose-location span{
+    font-size: 12px;
+    color: grey;
+}
+main .dropdown{
+    display: flex;
+    align-items:center;
+    color:grey;
+}
+.search-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    font-weight: 700;
+    background-color: #01BB0A;
+    padding:15px;
+    font-size:20px;
+    color:white;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+.green-txt{
+    color: #01BB0A;
+    }
+    .orange-txt{
+    color: #FB792B;
+    }
+    .blue-txt{
+    color: #213D77;
+    }
