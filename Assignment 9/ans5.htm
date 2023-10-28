@@ -1,0 +1,46 @@
+<!-- he z-index property in CSS is used to control the stacking order of positioned elements. 
+    An element with a higher z-index will be displayed in front of an element with a lower z-index. 
+    It’s important to note that z-index only works with positioned element -->
+
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            border: 2px solid teal;
+        }
+        .z3{
+            position: absolute;
+            z-index: 3;
+            background-color: yellowgreen;
+        }
+        .z5{
+            position: absolute;
+            z-index: 5;
+            background-color: steelblue;
+            left: 50px;
+            top: 50px;
+        }
+        .z-1{
+            position: absolute;
+            z-index: -1;
+            background-color: purple;
+            left: 100px;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box z3">
+        Z-Index =3
+    </div>
+    <div class="box z5">
+        Z-Index =5
+    </div>
+    <div class="box z-1">
+        Z-Index =-1
+    </div>
+</body>
+</html>

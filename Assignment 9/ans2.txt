@@ -1,0 +1,8 @@
+Relative Positioning: An element with position: relative; is positioned relative to its normal position. 
+Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to adjust away from its 
+normal position. Other content will not be adjusted to fit into any gap left by the element.
+
+Absolute Positioning: An element with position: absolute; is positioned relative to the nearest positioned ancestor 
+(instead of positioned relative to the viewport, like fixed). However, if an absolute positioned element has no positioned ancestors, 
+it uses the document body, and moves along with page scrolling.
+ Absolute positioning is relative to the position of another, enclosing element.
