@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <style>
+        .box-bag{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 200px;
+            text-align: center;
+            color: aliceblue;
+            font-weight: 500;
+            gap: 20px;
+        }
+        @media (min-width:1000px){
+            .box-bag{
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (max-width:500px){
+            .box{
+                width: 50%;
+            }
+        }
+        @media (max-width:350px){
+            .box{
+                width: 100%;
+            }
+        }
+        .box{
+            height: 200px;
+        }
+        .box1{
+            background-color:tomato
+        }
+        .box2{
+            background-color:teal
+        }
+        .box3{
+            background-color:slateblue
+        }
+        .box4{
+            background-color:plum;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-bag">
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+        <div class="box box4">Box 4</div>
+    </div>
+</body>
+</html>

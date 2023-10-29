@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <style>
+        .photo-gallery{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        @media (max-width:800px){
+            .photo-gallery img{
+                width: 45%;
+            }
+        }
+        @media (max-width:500px){
+            .photo-gallery img{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="photo-gallery">
+        <img src="photo.jpg" alt="">
+        <img src="photo.jpg" alt="">
+        <img src="photo.jpg" alt="">
+    </div>
+</body>
+</html>
