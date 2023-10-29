@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            border: 1px solid blue;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 150px);
+            gap: 10px;
+            padding: 10px;
+        }
+        .img{
+            border-radius: 5px;
+            height: 100%;
+            width: 100%;
+        }
+        .im1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            background-color: aqua;
+        }
+        .im2{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-color: plum;
+        }
+        .im4{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            background-color: yellowgreen;
+        }
+        .im5{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            background-color: slategray;
+        }
+        .im6{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: slateblue;
+        }
+        .im3{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: rgb(203, 71, 107);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="img im1"></div>
+        <div class="img im2"></div>
+        <div class="img im4"></div>
+        <div class="img im5"></div>
+        <div class="img im6"></div>
+        <div class="img im3"></div>
+    </div>
+</body>
+</html>
